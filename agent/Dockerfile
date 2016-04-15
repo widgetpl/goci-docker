@@ -14,4 +14,4 @@ RUN apt-get update \
     && apt-get clean install \
     && rm -rf /var/lib/apt/lists/*
 
-ENTRYPOINT ["/bin/bash", "/usr/share/go-server/agent.sh"]
+ENTRYPOINT ["/bin/bash", "/usr/share/go-agent/agent.sh"]
